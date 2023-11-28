@@ -1,0 +1,22 @@
+a:link   {color: #00FFFF; size: 200; text-decoration:  underline}
+a:visited {color: #00FF77; size: 200; text-decoration:  overline}
+a:active {color: #00FFFF; size: large; text-decoration: none}
+a:hover  {color: #FFF700; size: xx-large; text-decoration: overline}
+h1 {color: #FFFFFF; font-family: Tahoma; font-size: 500%;}
+h2 {color: #FF00FB; font-size: 500%;} 
+h3 {color: #FF00FB; font-size: 200%;} 
+h4 {color: #FFAA00; font-size: 250%;}
+
+
+
+BODY { background-image: url("1.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
