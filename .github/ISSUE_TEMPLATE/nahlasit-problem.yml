@@ -8,7 +8,7 @@ body:
     attributes:
       label: Problém
       description: Popis problému.
-      placeholder: Na stránce nefunguje odkaz na kolíky.
+      placeholder: Na stránce nefunguje odkaz na Kolíky.
     validations:
       required: true
   - type: input

@@ -1,6 +1,6 @@
 name: 📄 Nahlásit nesprávnou informaci na stránce
 title: "Nesprávná informace: "
-description: Na stránce je nesprávná informace (např. na kolíkách se dá bobovat, na rybníčku se dá bruslit)
+description: Na stránce je nesprávná informace (např. na Kolíkách se dá bobovat, na rybníčku se dá bruslit)
 labels:
   - informace
 body:
@@ -15,6 +15,6 @@ body:
     attributes:
       label: Popis
       description: Popište, co je na stránce nesprávně.
-      placeholder: Na kolíkách se nedá bobovat.
+      placeholder: Na Kolíkách se nedá bobovat.
     validations:
       required: true
