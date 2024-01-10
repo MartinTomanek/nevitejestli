@@ -1,0 +1,20 @@
+name: 📄 Nahlásit jiný problém
+title: "Problém: "
+description: Na stránce je něco jiného špatně (např. nefunguje odkaz, chybí obrázek)
+labels:
+  - bug
+body:
+  - type: textarea
+    attributes:
+      label: Problém
+      description: Popis problému.
+      placeholder: Na stránce nefunguje odkaz na kolíky.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Stránka
+      description: Odkaz na stránku, kde je problém.
+      placeholder: https://www.nevitejestli.cz/se-da-bobovat-na-kolikach/
+    validations:
+      required: false

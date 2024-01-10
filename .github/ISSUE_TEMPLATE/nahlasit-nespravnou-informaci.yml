@@ -1,0 +1,20 @@
+name: 📄 Nahlásit nesprávnou informaci na stránce
+title: "Nesprávná informace: "
+description: Na stránce je nesprávná informace (např. na kolíkách se dá bobovat, na rybníčku se dá bruslit)
+labels:
+  - informace
+body:
+  - type: input
+    attributes:
+      label: Stránka
+      description: Odkaz na stránku, kde je nesprávná informace.
+      placeholder: https://www.nevitejestli.cz/se-da-bobovat-na-kolikach/
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Popis
+      description: Popište, co je na stránce nesprávně.
+      placeholder: Na kolíkách se nedá bobovat.
+    validations:
+      required: true
